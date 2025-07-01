@@ -600,9 +600,18 @@ a {
 
 .footer .social {
     display: flex;
+    gap: 16px;
     margin-top: 40px;
 }
-
+.footer .social .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
 .footer .social-link:hover {
     background: #ebebeb;
 }
